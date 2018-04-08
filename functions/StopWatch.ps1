@@ -1,4 +1,4 @@
-function Start-StopWatch($limitSeconds = $null) {
+function StopWatch($limitSeconds = $null) {
     $sw = [System.Diagnostics.Stopwatch]::startNew()
     while ($limitSeconds -eq $null -or $sw.ElapsedMilliseconds -le $limitSeconds * 1000) {
         Start-Sleep -m 50
