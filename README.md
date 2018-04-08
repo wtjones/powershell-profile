@@ -8,11 +8,12 @@ Clone to ~/WindowsPowerShell
 
 Dependencies
 ------------
+
+### git
+
 ```
 choco install git
 ```
-
-### Deal with git
 
 Automate this?
 
@@ -34,3 +35,8 @@ Install-Module posh-vs -Scope CurrentUser
 ```
 choco install nuget.commandline
 ```
+
+Notes
+-----
+
+Presentation [Picking up the Blue Shell](https://docs.google.com/presentation/d/1iC2VjDka6R18Ky5trREuFeQ1MHwiBYpmfjVP9e2zkjM/edit?usp=sharing)
